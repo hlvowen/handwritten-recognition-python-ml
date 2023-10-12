@@ -5,3 +5,4 @@ tensorflow~=2.14.0
 pandas~=2.1.1
 streamlit~=1.27.2
 Pillow~=10.0.1
+streamlit-drawable-canvas
