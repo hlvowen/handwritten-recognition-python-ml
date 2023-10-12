@@ -38,6 +38,5 @@ if st.button('Predict'):
     test_x = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     pred = model.predict(test_x.reshape(1, 28, 28))
     st.write(f'result: {np.argmax(pred[0])}')
-    st.bar_chart(pred[0])
 
 
